@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Reachability" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="14" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="zm2-uE-8dL">
+                                <rect key="frame" x="164" y="412" width="271" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="2pC-9n-Ctv"/>
+                                    <constraint firstAttribute="width" constant="271" id="7UH-YM-2tG"/>
+                                </constraints>
+                                <string key="text">Cellular data network is available.
+Internet traffic will be routed through it.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="oim-0J-i3Y">
+                                <rect key="frame" x="140" y="204" width="32" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="OAR-tm-atF"/>
+                                    <constraint firstAttribute="height" constant="31" id="lFD-PE-tcM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="v0l-Pp-Qmg">
+                                <rect key="frame" x="140" y="283" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="hwp-tr-p6m"/>
+                                    <constraint firstAttribute="width" constant="32" id="qMg-ev-nxr"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="V7h-Sg-EUI">
+                                <rect key="frame" x="180" y="204" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UPp-tg-TRy"/>
+                                    <constraint firstAttribute="width" constant="240" id="uIf-Ym-VOR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Remote Host:" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="Bmo-Au-KDU">
+                                <rect key="frame" x="140" y="170" width="103" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WBf-Fd-Gqv">
+                                <rect key="frame" x="180" y="284" width="240" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="D9H-nv-2R6"/>
+                                    <constraint firstAttribute="height" constant="31" id="d9j-QL-O4g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="ozH-WK-JB2">
+                                <rect key="frame" x="140" y="354" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="dFO-ES-8xO"/>
+                                    <constraint firstAttribute="width" constant="32" id="zaI-La-7Hk"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="IBy-cl-LZW">
+                                <rect key="frame" x="180" y="354" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="OfG-TJ-Dw0"/>
+                                    <constraint firstAttribute="height" constant="30" id="WAD-rD-CeV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Local WiFi" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="uXo-FM-g1C">
+                                <rect key="frame" x="140" y="326" width="78" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TCP/IP Routing Available" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="jU6-AS-WeY">
+                                <rect key="frame" x="140" y="251" width="181" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oim-0J-i3Y" firstAttribute="top" secondItem="Bmo-Au-KDU" secondAttribute="bottom" constant="14" id="0LF-So-sgD"/>
+                            <constraint firstItem="WBf-Fd-Gqv" firstAttribute="leading" secondItem="v0l-Pp-Qmg" secondAttribute="trailing" constant="8" id="893-UV-7RH"/>
+                            <constraint firstItem="WBf-Fd-Gqv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CG9-IO-2I2"/>
+                            <constraint firstItem="zm2-uE-8dL" firstAttribute="centerX" secondItem="IBy-cl-LZW" secondAttribute="centerX" id="Fch-Za-adj"/>
+                            <constraint firstItem="jU6-AS-WeY" firstAttribute="top" secondItem="oim-0J-i3Y" secondAttribute="bottom" constant="16" id="Hv6-wN-uVO"/>
+                            <constraint firstItem="ozH-WK-JB2" firstAttribute="leading" secondItem="uXo-FM-g1C" secondAttribute="leading" id="I1q-L0-yyL"/>
+                            <constraint firstItem="V7h-Sg-EUI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJ7-4D-y3r"/>
+                            <constraint firstItem="WBf-Fd-Gqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NUX-Tb-m5J"/>
+                            <constraint firstItem="v0l-Pp-Qmg" firstAttribute="baseline" secondItem="WBf-Fd-Gqv" secondAttribute="baseline" id="Q0T-Cs-VGk"/>
+                            <constraint firstItem="V7h-Sg-EUI" firstAttribute="leading" secondItem="oim-0J-i3Y" secondAttribute="trailing" constant="8" id="Qhw-ta-6Vh"/>
+                            <constraint firstItem="oim-0J-i3Y" firstAttribute="leading" secondItem="Bmo-Au-KDU" secondAttribute="leading" id="SIz-6r-4dg"/>
+                            <constraint firstItem="jU6-AS-WeY" firstAttribute="leading" secondItem="v0l-Pp-Qmg" secondAttribute="leading" id="Wkp-Fs-EUz"/>
+                            <constraint firstItem="v0l-Pp-Qmg" firstAttribute="top" secondItem="jU6-AS-WeY" secondAttribute="bottom" constant="12.5" id="aQE-Yn-bkK"/>
+                            <constraint firstItem="uXo-FM-g1C" firstAttribute="top" secondItem="v0l-Pp-Qmg" secondAttribute="bottom" constant="11" id="bUf-4s-VjV"/>
+                            <constraint firstItem="v0l-Pp-Qmg" firstAttribute="centerY" secondItem="WBf-Fd-Gqv" secondAttribute="centerY" id="eHY-LM-vpX"/>
+                            <constraint firstItem="ozH-WK-JB2" firstAttribute="top" secondItem="uXo-FM-g1C" secondAttribute="bottom" constant="8" id="gHe-Te-bUY"/>
+                            <constraint firstItem="uXo-FM-g1C" firstAttribute="leading" secondItem="v0l-Pp-Qmg" secondAttribute="leading" id="gsG-vj-7lS"/>
+                            <constraint firstItem="IBy-cl-LZW" firstAttribute="top" secondItem="uXo-FM-g1C" secondAttribute="bottom" constant="8" id="isI-oe-A8i"/>
+                            <constraint firstItem="IBy-cl-LZW" firstAttribute="leading" secondItem="WBf-Fd-Gqv" secondAttribute="leading" id="vzT-cG-kJH"/>
+                            <constraint firstItem="zm2-uE-8dL" firstAttribute="top" secondItem="IBy-cl-LZW" secondAttribute="bottom" constant="28" id="y8Q-iO-ZAQ"/>
+                            <constraint firstItem="jU6-AS-WeY" firstAttribute="top" secondItem="V7h-Sg-EUI" secondAttribute="bottom" constant="17" id="yFH-ar-gdL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Q0T-Cs-VGk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="internetConnectionImageView" destination="v0l-Pp-Qmg" id="h3A-8b-zqb"/>
+                        <outlet property="internetConnectionStatusField" destination="WBf-Fd-Gqv" id="kGH-Jf-ZWI"/>
+                        <outlet property="localWiFiConnectionImageView" destination="ozH-WK-JB2" id="NJO-fR-MNz"/>
+                        <outlet property="localWiFiConnectionStatusField" destination="IBy-cl-LZW" id="hKj-hw-D2e"/>
+                        <outlet property="remoteHostImageView" destination="oim-0J-i3Y" id="3VM-Xf-qog"/>
+                        <outlet property="remoteHostLabel" destination="Bmo-Au-KDU" id="WPa-eP-oGl"/>
+                        <outlet property="remoteHostStatusField" destination="V7h-Sg-EUI" id="8vs-pf-JWR"/>
+                        <outlet property="summaryLabel" destination="zm2-uE-8dL" id="lpP-4e-2Z7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

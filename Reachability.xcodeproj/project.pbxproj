@@ -14,6 +14,7 @@
 		B8D295D31B8E46C20071F61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D295D11B8E46C20071F61E /* LaunchScreen.storyboard */; };
 		B8D295DB1B8E471F0071F61E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D295DA1B8E471F0071F61E /* Reachability.swift */; };
 		B8D295EB1B90BEA80071F61E /* ReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D295EA1B90BEA80071F61E /* ReachabilityTests.swift */; };
+		B8D2961F1B9491BF0071F61E /* ReachabilityStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2961E1B9491BF0071F61E /* ReachabilityStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B8D295E81B90BEA80071F61E /* ReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D295EA1B90BEA80071F61E /* ReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityTests.swift; sourceTree = "<group>"; };
 		B8D295EC1B90BEA80071F61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D2961E1B9491BF0071F61E /* ReachabilityStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				B8D295EA1B90BEA80071F61E /* ReachabilityTests.swift */,
 				B8D295EC1B90BEA80071F61E /* Info.plist */,
+				B8D2961E1B9491BF0071F61E /* ReachabilityStub.swift */,
 			);
 			path = ReachabilityTests;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D2961F1B9491BF0071F61E /* ReachabilityStub.swift in Sources */,
 				B8D295EB1B90BEA80071F61E /* ReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
